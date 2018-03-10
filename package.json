@@ -1,0 +1,26 @@
+{
+  "name": "mean-auth",
+  "version": "0.0.0",
+  "license": "",
+  "author": {
+    "name": "Navjot Dhanawat",
+    "email": "navjotdhanawat@gmail.com",
+    "url": "http://navjotdhanawat.com/"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "core-js": "^2.4.1",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.4",
+    "nodemailer": "^4.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}
